@@ -1,9 +1,13 @@
-var theBeatlesPlay = function(array1,array2) {
+var theBeatlesPlay = function(musicians,instruments) {
   var stringBeatles = []
-  for (x in array1) {
-    for (y in array2) {
-      stringBeatles.push("x plays y")
+  var lenMus= musicians.length
+  var lenIns= instruments.length
+  for (i=0; i < lenMus; i++) {
+    x = muscians[i]
+    for (j=0; j < lenIns; j++) {
+      y = instruments[j]
     }
+    stringBeatles.push( x + "plays" + y)
   }
   return stringBeatles
 }
