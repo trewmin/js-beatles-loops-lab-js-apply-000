@@ -1,4 +1,4 @@
-var theBeatlesPlay = function(musicians,instruments) {
+var theBeatlesPlay = function(musicians[],instruments[]) {
   var stringBeatles = []
   var lenMus= musicians.length
   var lenIns= instruments.length
