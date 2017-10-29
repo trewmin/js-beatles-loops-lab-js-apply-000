@@ -8,5 +8,5 @@ function theBeatlesPlay(musicians,instruments) {
   var stringBeatles = "${x} plays ${y}"
   arrayBeatles.push(stringBeatles)
   }
-  return sarrayBeatles
+  return arrayBeatles
 }
